@@ -1,6 +1,8 @@
 Role Name
 ========
 
+[![Build Status](https://drone-opsdev.rax.io/github.com/rack-roles/epel/status.svg?branch=master)](https://drone-opsdev.rax.io/github.com/rack-roles/epel)
+
 Enables EPEL on EL based systems.
 
 Requirements
