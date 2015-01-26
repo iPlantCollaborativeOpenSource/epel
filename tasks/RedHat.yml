@@ -1,6 +1,0 @@
----
-- name: RedHat | Create the repository for EPEL
-  copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo
-
-- name: RedHat | Create the GPG key for EPEL
-  copy: src=RPM-GPG-KEY-EPEL-6 dest=/etc/pki/rpm-gpg
