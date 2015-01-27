@@ -1,7 +1,7 @@
 ---
 # tasks file for epel
 - include: RedHat-5.yml
-  when: ansible_os_family == 'RedHat' and version_compare('6.0', '<')
+  when: ansible_os_family == 'RedHat' and ansible_distribution_version | version_compare('5', '==')
 
 - include: RedHat-6.yml
-  when: ansible_os_family == 'RedHat' and version_compare('6.0', '>=')
+  when: ansible_os_family == 'RedHat' and ansible_distribution_version | version_compare('6', '==')
